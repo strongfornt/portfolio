@@ -5,6 +5,7 @@ import React from "react";
 import { RiMenu3Fill } from "react-icons/ri";
 
 export default function ContactPage() {
+  // console.log(Contact);
   return (
     <>
       <div>
@@ -44,18 +45,22 @@ export default function ContactPage() {
               </div>
               <div className="">
                 {Contact.map((item) => (
-                  <div
+                  <a
+                    href={item?.path}
                     key={item.title}
+                    target="_blank"
                     className="flex items-center gap-6 p-3 mb-4  w-72 rounded-md text-sm bg-gray-500/10"
                   >
-                    <p className="text-[#ffb400] text-lg">{<item.icon />}</p>
-                    <p className="font-sans">{item.title}</p>
-                  </div>
+                    <span className="text-[#ffb400] text-lg">
+                      {<item.icon />}
+                    </span>
+                    <span className="font-sans">{item.title}</span>
+                  </a>
                 ))}
               </div>
             </div>
             <div className=" mt-12  ">
-                    <ContactForm/>
+              <ContactForm />
             </div>
           </div>
         </Container>
