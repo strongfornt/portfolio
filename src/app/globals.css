@@ -4,5 +4,6 @@
 
 
 body{
-  background-color: rgb(2, 2, 2);
+  /* background:'none'; */
+  background: rgb(2, 2, 2)!important;
 }

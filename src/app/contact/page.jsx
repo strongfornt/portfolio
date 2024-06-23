@@ -4,35 +4,33 @@ import { Contact } from "@/constants/data";
 import React from "react";
 import { RiMenu3Fill } from "react-icons/ri";
 
+export const metadata = {
+    title: "Contacts | Portfolio",
+    description: "Contacts page",
+  };
+
 export default function ContactPage() {
   // console.log(Contact);
   return (
     <>
-      <div>
-        <Container className=" place-items-start md:place-items-center relative">
-          <header className="md:hidden flex items-center justify-between text-white bg-[#343a40;] h-16 fixed w-full px-7 md:px-o  ">
-            <h3 className="text-white/90 text-3xl  font-bold font-sans   flex gap-2">
-              GET IN <p className="text-[#ffb400]">TOUCH</p>
-            </h3>
-            <p>
-              <RiMenu3Fill />
-            </p>
-          </header>
-          <div className="w-full md:h-20 relative flex items-center"></div>
-          <div className=" hidden md:flex items-center justify-center  ">
+      <div className="" >
+        <Container className="  relative">
+        
+          {/* <div className="w-full md:h-16 relative flex items-center"></div> */}
+          <div className="  hidden md:flex mt-6 lg:mt-12    items-center justify-center  ">
             <h3 className=" md:text-white/10 text-8xl font-bold  tracking-[15px]  translate-x-[25%] ">
               CONTACT
             </h3>
-            <div className="flex items-center justify-center flex-col -translate-x-[95%]">
-              <h3 className="text-white/90 text-5xl  font-bold font-sans mt-3 mb-3 flex gap-2">
+            <div className="flex  min-w-fit items-center justify-center flex-col -translate-x-[95%]">
+              <h3 className="text-white/90 text-5xl   font-bold font-sans mt-3 mb-3 flex gap-2">
                 GET IN <p className="text-[#ffb400]">TOUCH</p>
               </h3>
               <span className="h-[3px] w-16 bg-[#ffb400] inline-flex   " />
             </div>
           </div>
-          <div className="flex-row md:flex gap-16 px-7 md:px-0 mt-20 md:mt-16 ">
+          <div className="flex-row lg:flex items-center lg:max-w-4xl  xl:max-w-5xl mx-auto  justify-center  gap-8 lg:gap-16 px-7   md:px-7 lg:px-0 mt-8  md:mt-14 mb-6 ">
             <div className="text-white/80  ">
-              <div className="text-white w-72 ">
+              <div className="text-white max-w-lg lg:max-w-sm ">
                 <h3 className="text-2xl font-semibold font-sans mb-3">
                   DON&apos;T BE SHY!
                 </h3>
@@ -59,7 +57,7 @@ export default function ContactPage() {
                 ))}
               </div>
             </div>
-            <div className=" mt-12  ">
+            <div className=" mt-12  flex-1  ">
               <ContactForm />
             </div>
           </div>
