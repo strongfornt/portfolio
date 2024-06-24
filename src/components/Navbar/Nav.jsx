@@ -101,8 +101,9 @@ export default function Nav() {
             </button>
           </div>
         </menu>
-        <Headroom>
-          <header className={` ${pathName === '/' && 'fixed w-full'} flex md:hidden bg-[#343a40] h-16 items-center justify-between px-2`}>
+       <menu className=" z-50" >
+       <Headroom >
+          <header className={` ${pathName === '/' ? 'fixed w-full' : 'bg-[#343a40]'} flex   md:hidden  h-16 items-center justify-between px-2`}>
             {pathName === "/" && (
               <div>
                 <Image src={Logo} alt="logo" className="h-32 w-32 " />
@@ -119,11 +120,12 @@ export default function Nav() {
               </h3>
             )}
 
-            <button onClick={onOpen} className=" text-white text-2xl ">
+            <button onClick={onOpen} className={`text-white text-2xl z-20 ${pathName === '/' && 'bg-[#343a40] p-2 rounded-sm'}`}>
               <RiMenu3Fill />
             </button>
           </header>
         </Headroom>
+       </menu>
         {/* dropdown manu start here ======================================*/}
         <RadioGroup defaultValue={placement}></RadioGroup>
         <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>

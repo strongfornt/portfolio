@@ -15,13 +15,13 @@ export default function Home() {
           muted
           playsInline
           preload="auto"
-          className=" min-h-screen object-cover opacity-70 -z-10 "
+          className=" min-h-screen object-cover opacity-70 -z-20 "
         >
           <source src="/motoion.MP4" type="video/mp4" />
         </video>
        
       </div>
-      <div className="absolute bg-black/80 z-10 min-h-screen w-full  " >
+      <div className="absolute bg-black/80 -z-10  min-h-screen w-full  " >
      
         </div>
       {/* others components start from here================================== */}
