@@ -91,7 +91,7 @@ export default function Nav() {
           </Link>
         </div>
         {/* responsive menu from here */}
-        <Headroom>
+        <menu className="fixed right-2 top-3 z-50 "  >
           <div className=" hidden md:flex  justify-end mr-2  mt-2 lg:hidden  ">
             <button
               onClick={onOpen}
@@ -100,9 +100,9 @@ export default function Nav() {
               <RiMenu3Fill />
             </button>
           </div>
-        </Headroom>
+        </menu>
         <Headroom>
-          <header className="flex md:hidden bg-[#343a40] h-16 items-center justify-between px-2  ">
+          <header className={` ${pathName === '/' && 'fixed w-full'} flex md:hidden bg-[#343a40] h-16 items-center justify-between px-2`}>
             {pathName === "/" && (
               <div>
                 <Image src={Logo} alt="logo" className="h-32 w-32 " />
@@ -167,7 +167,7 @@ export default function Nav() {
 
         {pathName === "/" && (
           <div className=" hidden relative md:flex">
-            <Image src={Logo} alt="logo" className="h-32 w-32 fixed -top-5" />
+            <Image src={Logo} alt="logo" className="h-32 w-32 fixed -top-7 z-20" />
           </div>
         )}
       </div>
