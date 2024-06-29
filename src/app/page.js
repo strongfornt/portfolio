@@ -23,11 +23,11 @@ export default function Home() {
         <div class="w-full max-w-md px-8 py-4 mt-16  rounded-lg shadow-lg border border-[#343a40]  ">
           <div class="flex justify-center -mt-16 md:justify-end">
             <Image
-              width={20}
-              height={20}
+              width={500}
+              height={500}
               class="object-cover w-20 h-20 border-2  rounded-full "
               alt="Testimonial avatar"
-              src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=76&q=80"
+              src="https://i.postimg.cc/9QfJmzYB/Ahsan-3.jpg"
             />
           </div>
 
