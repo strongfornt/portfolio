@@ -51,7 +51,7 @@ export const navigation = [
   
   export const sidebar = [
     {title:"Home", href: "/" ,icon:FaHome,},
-    { title: "About me ", href: "/aboutme" ,icon:FaUser, },
+    { title: "About me ", href: "/about" ,icon:FaUser, },
     { title: "Resume", href: "/resume",icon:MdNoteAlt, },
   
     { title: "Portfolio", href: "/portfolio" , icon:BiSolidShoppingBagAlt, },
@@ -122,3 +122,24 @@ export const portfolio = [
   
 
 ]
+
+export const Service = [
+  {
+    icon: SiSimilarweb,
+    title: "Web Design",
+    description:
+      "I can design your website.Desing is my fevorite part.so i can do it very well.",
+  },
+  {
+    icon: SiWebmoney,
+    title: "Web Developer",
+    description:
+      "I can develop your website.Devlop is my fevorite part.so i can do it very well.",
+  },
+  {
+    icon: SiPhotobucket,
+    title: "Photography",
+    description:
+      "Ohoo! Photography is my favorite activity.when i go out for a walk,some picture are taken of nature and myself.",
+  },
+];

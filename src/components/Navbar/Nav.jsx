@@ -45,10 +45,10 @@ export default function Nav() {
               <span className="translate-x-14 text-sm">HOME</span>
             </div>
           </Link>
-          <Link href={"/aboutme"}>
+          <Link href={"/about"}>
             <div
               className={`${
-                pathName === "/aboutme" && "bg-yellow-500"
+                pathName === "/about" && "bg-yellow-500"
               } border border-[#343a40] bg-[#343a40]  cursor-pointer top-[36%] hover:bg-yellow-500  group duration-300 w-[40px] h-[40px] right-2  fixed z-30 rounded-[100px]  overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
             >
               <FaUser className="group-hover:translate-x-3  rounded-[100px] text-lg   absolute text-white  " />
@@ -108,6 +108,11 @@ export default function Nav() {
               <div>
                 <Image src={Logo} alt="logo" className="h-32 w-32 " />
               </div>
+            )}
+              {pathName === "/about" && (
+              <h3 className="text-white/90 text-3xl  font-bold font-sans  ">
+                ABOUT <span className="text-[#ffb400]">ME</span>
+              </h3>
             )}
             {pathName === "/resume" && (
               <h3 className="text-white/90 text-3xl  font-bold font-sans flex ">

@@ -26,7 +26,7 @@ export default function ContactPage() {
               <span className="h-[3px] w-16 bg-[#ffb400] inline-flex   " />
             </div>
           </header>
-          <div className="flex-row lg:flex items-center lg:max-w-4xl  xl:max-w-[68rem] mx-auto  justify-center  gap-8 lg:gap-16 px-7   md:px-7 lg:px-0 mt-8  md:mt-14 mb-6 ">
+          <div className="flex-row lg:flex items-center lg:max-w-4xl  xl:max-w-[68rem] mx-auto  justify-center  gap-8 lg:gap-16 px-2   md:px-7 lg:px-0 mt-8  md:mt-14 mb-6 ">
             <div className="text-white/80  ">
               <div className="text-white max-w-lg lg:max-w-sm ">
                 <h3 className="text-2xl font-semibold font-sans mb-3">

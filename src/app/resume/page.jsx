@@ -37,7 +37,7 @@ export default function page() {
               <span className="h-[3px] w-16 bg-[#ffb400] inline-flex   " />
             </div>
           </header>
-          <div className="grid px-7 md:px-7 lg:max-w-4xl  xl:max-w-6xl mx-auto grid-rows-1 md:grid-cols-2 gap-8 md:gap-14 mt-8 md:mt-14 mb-10 md:mb-0  ">
+          <div className="grid px-2 md:px-7 lg:max-w-4xl  xl:max-w-6xl mx-auto grid-rows-1 md:grid-cols-2 gap-8 md:gap-14 mt-8 md:mt-14 mb-10 md:mb-0  ">
             <div className="text-white/90  ">
               <p className="mb-5 font-semibold font-sans text-3xl">
                 My Education

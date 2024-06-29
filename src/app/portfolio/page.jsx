@@ -30,7 +30,7 @@ export default function page() {
 
         <main>
           <section class="">
-            <div class="container px-7 lg:max-w-4xl  xl:max-w-6xl py-10 mx-auto">
+            <div class="container px-2 md:px-7 lg:max-w-4xl  xl:max-w-6xl py-10 mx-auto">
               <div class="grid grid-cols-1 gap-8 mt-6 xl:mt-12  md:grid-cols-2 xl:grid-cols-3">
                 {portfolio?.map((item, idx) => (
                   <div
