@@ -42,6 +42,19 @@ export default function page() {
               <p className="mb-5 font-semibold font-sans text-3xl">
                 My Education
               </p>
+              <div className="bg-gray-500/10 relative border-l-[#ffb400] border-l-2 rounded-r-md p-10 xl:p-12 space-y-2 border  border-gray-500/10 border-b-gray-500 ">
+                <span className="absolute left-0 mt-4 text-[#ffb400] text-2xl">
+                  <ImArrowRight />
+                </span>
+                <p className="font-semibold font-sans text-2xl">BSc in CSE </p>
+                <p className="text-sm text-teal-500 font-sans">
+                  University of Global Village / 2024-Present{" "}
+                </p>
+                <p className="text-sm text-white/80 font-sans">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Asperiores neque reprehenderit corrupti!
+                </p>
+              </div>
               <div className="bg-gray-500/10 border-l-[#ffb400] border-l-2 rounded-r-md p-10 xl:p-12 space-y-2 border border-gray-500/10 border-b-gray-500 relative  ">
                 <span className="absolute left-0 mt-4 text-[#ffb400] text-2xl">
                   <ImArrowRight />
@@ -50,33 +63,21 @@ export default function page() {
                   Computer Science
                 </p>
                 <p className="text-sm text-teal-500 font-sans">
-                  Barisal Polytechnic / 2020-2023
+                  Barisal Polytechnic / 2019-2023
                 </p>
                 <p className="text-sm text-white/80 font-sans">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Asperiores neque reprehenderit corrupti!
                 </p>
               </div>
-              <div className="bg-gray-500/10 relative border-l-[#ffb400] border-l-2 rounded-r-md p-10 xl:p-12 space-y-2 border  border-gray-500/10 border-b-gray-500 ">
-                <span className="absolute left-0 mt-4 text-[#ffb400] text-2xl">
-                  <ImArrowRight />
-                </span>
-                <p className="font-semibold font-sans text-2xl">H.S.C</p>
-                <p className="text-sm text-teal-500 font-sans">
-                  Akota Degree College / 2021-2022{" "}
-                </p>
-                <p className="text-sm text-white/80 font-sans">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores neque reprehenderit corrupti!
-                </p>
-              </div>
+            
               <div className="bg-gray-500/10 relative border-l-[#ffb400] border-l-2 rounded-r-md p-10 xl:p-12 space-y-2 border border-gray-500/10  ">
                 <span className="absolute left-0 mt-4 text-[#ffb400] text-2xl">
                   <ImArrowRight />
                 </span>
-                <p className="font-semibold font-sans text-2xl">S.S.C</p>
+                <p className="font-semibold font-sans text-2xl">SSC</p>
                 <p className="text-sm text-teal-500 font-sans">
-                  Udoypur Maddhomik School
+                  Udoypur Maddhomik School / 2019
                 </p>
                 <p className="text-sm text-white/80 font-sans">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -138,7 +139,7 @@ export default function page() {
             <button
             as="a" download="Ahsan_Resume.pdf"
              target="_blank"
-              className=" text-[#ffb400] hover:text-white hover:bg-[#ffb400] duration-300 p-3 rounded-lg  border border-[#ffb400] flex items-center justify-center gap-2
+              className=" text-[#ffb400] hover:text-white hover:bg-[#ffb400] duration-300 px-6 py-2 rounded-lg  border border-[#ffb400] flex items-center justify-center gap-2
               uppercase text-lg font-semibold
               "
             >

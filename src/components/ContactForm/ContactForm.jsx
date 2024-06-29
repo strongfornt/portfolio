@@ -29,6 +29,9 @@ export default function ContactForm() {
               placeholder="Message"
               className=" rounded-md ring-1 ring-gray-200/40 px-4 py-2 outline-none bg-gray-500/10 focus:right-2 focus:ring-[#ffb400] w-full"
             />
+
+
+
             <button
               type="submit"
               className="inline-block self-end text-[#ffb400] text-lg font-semibold rounded-lg px-6 py-2 uppercase hover:bg-[#ffb400] hover:text-white border border-[#ffb400]

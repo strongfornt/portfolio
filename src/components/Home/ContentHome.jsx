@@ -4,7 +4,7 @@ import React from 'react'
 import { Typewriter } from "react-simple-typewriter";
 export default function ContentHome() {
     const typing = [
-        "Jr. Web Developer",
+        "Jr. Front-End Developer",
         "React.js Developer",
         "Photographer",
       ];
