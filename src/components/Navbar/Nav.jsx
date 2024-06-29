@@ -39,7 +39,7 @@ export default function Nav() {
             <div
               className={`${
                 pathName === "/" && "bg-yellow-500"
-              } border cursor-pointer top-[27%] group hover:bg-yellow-500 duration-300 w-[40px] h-[40px] right-2 fixed z-30  rounded-[100px]  overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
+              } border border-[#343a40] bg-[#343a40]  cursor-pointer top-[27%] group hover:bg-yellow-500 duration-300 w-[40px] h-[40px] right-2 fixed z-30  rounded-[100px]  overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
             >
               <FaHome className="group-hover:translate-x-3  rounded-[100px] text-lg   absolute text-white  " />
               <span className="translate-x-14 text-sm">HOME</span>
@@ -49,7 +49,7 @@ export default function Nav() {
             <div
               className={`${
                 pathName === "/aboutme" && "bg-yellow-500"
-              } border cursor-pointer top-[36%] hover:bg-yellow-500  group duration-300 w-[40px] h-[40px] right-2  fixed z-30 rounded-[100px]  overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
+              } border border-[#343a40] bg-[#343a40]  cursor-pointer top-[36%] hover:bg-yellow-500  group duration-300 w-[40px] h-[40px] right-2  fixed z-30 rounded-[100px]  overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
             >
               <FaUser className="group-hover:translate-x-3  rounded-[100px] text-lg   absolute text-white  " />
               <span className="translate-x-14 text-sm">ABOUT</span>
@@ -59,7 +59,7 @@ export default function Nav() {
             <div
               className={`${
                 pathName === "/resume" && "bg-yellow-500"
-              } border cursor-pointer top-[45%] hover:bg-yellow-500  group duration-300 w-[40px] h-[40px] right-2  fixed z-30 rounded-[100px] overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
+              } border border-[#343a40] bg-[#343a40]  cursor-pointer top-[45%] hover:bg-yellow-500  group duration-300 w-[40px] h-[40px] right-2  fixed z-30 rounded-[100px] overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
             >
               <MdNoteAlt className="group-hover:translate-x-3  rounded-[100px] text-lg   absolute   " />
               <span className="translate-x-14 text-sm"> RESUME</span>
@@ -69,7 +69,7 @@ export default function Nav() {
             <div
               className={`${
                 pathName === "/portfolio" && "bg-yellow-500"
-              } border cursor-pointer top-[54%] hover:bg-yellow-500 group duration-300 w-[40px] h-[40px] right-2  fixed z-30  rounded-[100px] overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
+              } border border-[#343a40] bg-[#343a40]  cursor-pointer top-[54%] hover:bg-yellow-500 group duration-300 w-[40px] h-[40px] right-2  fixed z-30  rounded-[100px] overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
             >
               <BiSolidShoppingBagAlt className="group-hover:translate-x-3  rounded-[100px] text-lg   absolute text-white  " />
               <span className="translate-x-16 group-hover:translate-x-12 text-sm">
@@ -83,7 +83,7 @@ export default function Nav() {
             <div
               className={`${
                 pathName === "/contact" && "bg-yellow-500"
-              } border cursor-pointer top-[63%] hover:bg-yellow-500 group duration-300 w-[40px] h-[40px] right-2  fixed z-30  rounded-[100px] overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
+              } border border-[#343a40] bg-[#343a40]  cursor-pointer top-[63%] hover:bg-yellow-500 group duration-300 w-[40px] h-[40px] right-2  fixed z-30  rounded-[100px] overflow-hidden hover:w-32 hover:justify-between  text-center text-white  text-xl   justify-evenly flex items-center`}
             >
               <FaEnvelope className="group-hover:translate-x-3  rounded-[100px] text-lg   absolute text-white  " />
               <span className="translate-x-14 text-sm"> CONTACT</span>
@@ -112,6 +112,11 @@ export default function Nav() {
             {pathName === "/resume" && (
               <h3 className="text-white/90 text-3xl  font-bold font-sans flex ">
                 RESU<p className="text-[#ffb400]">ME</p>
+              </h3>
+            )}
+               {pathName === "/portfolio" && (
+              <h3 className="text-white/90 text-3xl  font-bold font-sans  ">
+                MY <span className="text-[#ffb400]">PORTFOLIO</span>
               </h3>
             )}
             {pathName === "/contact" && (
