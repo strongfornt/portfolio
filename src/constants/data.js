@@ -1,5 +1,5 @@
 import { FaWindowClose, FaFacebookSquare, FaHome, FaUser, FaEnvelope } from "react-icons/fa";
-import dinEase from '../assets/projects/DineEase (2).png'
+
 import {
   AiFillHome,
   AiFillLinkedin,
