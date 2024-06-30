@@ -9,6 +9,11 @@ import {
 import { FaFacebookF } from "react-icons/fa";
 import { RiLinkedinFill } from "react-icons/ri";
 
+export const metadata = {
+    title: "About | Portfolio",
+    description: "Resume page",
+  };
+
 export default function page() {
   return (
     <>

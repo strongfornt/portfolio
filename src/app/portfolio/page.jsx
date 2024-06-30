@@ -12,6 +12,11 @@ import {
 import React from "react";
 import { portfolio } from "@/constants/data";
 
+export const metadata = {
+    title: "Portfolio",
+    description: "Resume page",
+  };
+
 export default function page() {
   return (
     <>
